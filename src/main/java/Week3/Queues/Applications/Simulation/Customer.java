@@ -6,9 +6,9 @@ public class Customer {
     private int numberOfArrivals;
 
     Customer(int clock, int transactionTime, int numberOfArrivals){
-        clock = clock;
-        transactionTime = transactionTime;
-        numberOfArrivals = numberOfArrivals;
+        this.clock = clock;
+        this.transactionTime = transactionTime;
+        this.numberOfArrivals = numberOfArrivals;
 
     }
 
